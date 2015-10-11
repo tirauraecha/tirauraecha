@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      "reichat",
+      ""
+    ]
+  ],
+  "_from": "reichat@*",
+  "_id": "reichat@0.0.33",
+  "_inCache": true,
+  "_location": "/reichat",
+  "_nodeVersion": "0.12.5",
+  "_npmUser": {
+    "email": "root@kpx.jp",
+    "name": "kanreisa"
+  },
+  "_npmVersion": "2.11.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "reichat",
+    "raw": "reichat",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/reichat/-/reichat-0.0.33.tgz",
+  "_shasum": "91f10ebc17511c08ed7e758298b62326a4cdd9d6",
+  "_shrinkwrap": null,
+  "_spec": "reichat",
+  "_where": "",
+  "author": {
+    "email": "re@pixely.jp",
+    "name": "Yuki KAN",
+    "url": "https://github.com/kanreisa"
+  },
+  "bin": {
+    "reichat": "./bin/reichat.js"
+  },
+  "bugs": {
+    "url": "https://github.com/kanreisa/reichat/issues"
+  },
+  "contributors": [
+    {
+      "name": "MugeSo",
+      "url": "http://muge.so/"
+    },
+    {
+      "name": "furugomu"
+    }
+  ],
+  "dependencies": {
+    "opts": "^1.2.2",
+    "reichat-server": "^1.0.4"
+  },
+  "description": "A lovely paint chat application like a PaintChatApp built with Node.",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-mocha": "^2.0.0",
+    "should": "^5.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "91f10ebc17511c08ed7e758298b62326a4cdd9d6",
+    "tarball": "http://registry.npmjs.org/reichat/-/reichat-0.0.33.tgz"
+  },
+  "gitHead": "43932aed5847a9f233d3c954903e31b929195507",
+  "homepage": "https://github.com/kanreisa/reichat",
+  "installable": true,
+  "keywords": [
+    "chat",
+    "paintchat",
+    "reichat",
+    "server"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "kanreisa",
+      "email": "root@kpx.jp"
+    }
+  ],
+  "name": "reichat",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanreisa/reichat.git"
+  },
+  "scripts": {
+    "start": "./bin/reichat.js",
+    "test": "gulp test",
+    "watch": "gulp watch"
+  },
+  "version": "0.0.33"
+}
